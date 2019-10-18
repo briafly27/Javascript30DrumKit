@@ -10,12 +10,29 @@ body,html {
   font-family: cursive;
 }
 
+.row {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+}
+
+.first {
+    align-items: flex-start;
+    padding-top: 7%;
+}
+
+.second {
+    align-items: center;
+}
+
+.third {
+    align-items: flex-end;
+}
+
 .keys {
-  display: flex;
-  flex: 1;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
+    min-height: 100vh;
 }
 
 .key {
@@ -48,4 +65,15 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #12c742;
+}
+
+.credit {
+  color: #c0fad0;
+  text-align: center;
+  text-shadow: 0 0 .5rem black;
+  background-color: rgba(79, 79, 79, 0.5);  
+  margin-top: 40px;
+  margin-right: 511px;
+  margin-left: 511px;
+  border-radius: 25px;
 }
